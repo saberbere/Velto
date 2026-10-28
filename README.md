@@ -22,6 +22,12 @@ A React + TypeScript + Vite starting point based on the Velto master product and
 - The local parser uses deterministic regular expressions. It is not an LLM parser or independent reviewer; confidence/findings are UI demonstrations only.
 - Product Studio is represented as a planned capability, not an implemented authoring system.
 
+## Integration contract proposal
+
+See [`docs/integrations/bank-rfq-contract.md`](docs/integrations/bank-rfq-contract.md) for a proposed bank RFQ, acknowledgement, and quote exchange schema. It documents a future integration only; no SFTP or API connection is configured in this prototype.
+
+The product brief used for this implementation is preserved in [`docs/VELTO_MASTER_PROMPT.md`](docs/VELTO_MASTER_PROMPT.md).
+
 ## Requirements
 
 - Node.js 20.19+ or 22.12+ recommended.
